@@ -1,0 +1,19 @@
+package kostana.maksic;
+
+public class ProsledjivanjeObjekataMetodiPrikaz {
+	
+	public static void calcArea(Circle c) {
+		System.out.println("Površina kruga: " + c.area());
+	}
+	
+	public static void main(String[] args) {
+		Circle c1 = new Circle(20);
+
+		calcArea(c1);
+		
+
+	}
+
+	
+
+}
